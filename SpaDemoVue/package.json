@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "name": "spademo",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --config App/Build/webpack.config.js",
+    "prod": "cross-env NODE_ENV=production webpack --config App/Build/webpack.config.js",
+    "watch": "cross-env NODE_ENV=watch webpack --config App/Build/webpack.config.js"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.5",
+    "babel-preset-es2015": "6.24.1",
+    "css-loader": "1.0.0",
+    "cross-env": "5.2.0",
+    "eslint": "5.5.0",
+    "eslint-friendly-formatter": "4.0.1",
+    "eslint-loader": "2.1.0",
+    "file-save": "0.2.0",
+    "html-webpack-plugin": "3.2.0",
+    "path": "0.12.7",
+    "vue-loader": "15.4.1",
+    "vue-style-loader": "4.1.2",
+    "vue-template-compiler": "2.5.17",
+    "webpack": "4.17.2",
+    "webpack-cli": "3.1.0"
+  },
+  "dependencies": {
+    "vue": "2.5.17",
+    "vue-router": "3.0.1"
+  }
+}
